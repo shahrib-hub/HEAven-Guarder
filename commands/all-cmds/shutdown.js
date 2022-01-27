@@ -29,7 +29,7 @@ run: async function (client, message, args) {
       
       if(reaction._emoji.name === "✅"
       ){
-      message.channel.send("**Shutting down...** \n `System will be down after 5 mins`").then(() => {
+      message.channel.send("**Shutting down...** \n `<:atlanta_offline:616613445487558696> System will be down after 5 mins`").then(() => {
         process.exit(1);
         })
       }
