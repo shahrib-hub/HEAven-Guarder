@@ -9,7 +9,7 @@ const disbut = require("discord-buttons");
       .setDescription('** *HEAven Guarder*  is one of the only free all in one bots that has many features like tickets, reaction roles, uptimer and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .setColor("#f4c2c2")
       .addField("<:yes:929246071006314496> COMMAND CATEGORIES",
-        "**<:badge:929242121226035271>  ADMIN\n☕  GENERAL\n🎉  GIVEAWAY\n💙  INFO\n🖼️  IMAGE\n🤣  FUN\n🔺  UPTIMER**")
+        "**<:atlanta_administration_category:789030159419310101>  ADMIN\n<:atlanta_general_category:789030444167200808>  GENERAL\n🎉  GIVEAWAY\n💙  INFO\n<:atlanta_images_category:789030084861362257>  IMAGE\n<:atlanta_fun_category:789030226607996958>  FUN\n<:atlanta_up:598171826052530196>  UPTIMER**")
       
       .setFooter('Bot Made By SHAHRIb | Prefix: +')
     let embed2 = new Discord.MessageEmbed()
@@ -17,7 +17,7 @@ const disbut = require("discord-buttons");
       .setDescription('** *HEAven Guarder*  is one of the only free all in one bots that has many features like tickets, reaction roles, uptimer and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .setColor("#f4c2c2")
       .addField(
-        "<:badge:929242121226035271> MODERATION",
+        "<:atlanta_moderation_category:789030389741781033> MODERATION",
         "`ban` `unban` `kick` `avatar` `addemoji` `addrole` `removerole` `announce` `setnick` `resetnick` `purge-channel` `lockchannel` `/purge` `slowmode` `mute` `unmute` `greet-embed-toggle` `timedlockdown`")
   
       .setFooter('HEAven Guarder | Prefix: +')
@@ -26,7 +26,7 @@ const disbut = require("discord-buttons");
       .setDescription('** *HEAven Guarder*  is one of the only free all in one bots that has many features like tickets, reaction roles, uptimer and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .setColor("#f4c2c2")
       .addField(
-        "☕ GENERAL",
+        "<:atlanta_general_category:789030444167200808> GENERAL",
         "`servericon` `calculator` `invite` `membercount` `botinfo` `serverinfo` `leaderboard` `snipe` `embed`")
      
       .setFooter('Bot Made By SHAHRIb | Prefix: +')
@@ -53,7 +53,7 @@ const disbut = require("discord-buttons");
       .setDescription('** *HEAven Guarder*  is one of the only free all in one bots that has many features like tickets, reaction roles, uptimer and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .setColor("#f4c2c2")
       .addField(
-        "🖼️ Image",
+        "<:atlanta_images_category:789030084861362257> Image",
         "`tweet` `fact` `deepfry` `eject` `meme` `kangaroo` `dog` `cat` `changemymind` `fire` `respect` `scary`")
       
       .setFooter('Bot Made By SHAHRIb | Prefix: +')
@@ -63,7 +63,7 @@ const disbut = require("discord-buttons");
       .setDescription('** *HEAven Guarder*  is one of the only free all in one bots that has many features like tickets, reaction roles, uptimer and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .setColor("#f4c2c2")
       .addField(
-        "🤣 FUN",
+        "<:atlanta_fun_category:789030226607996958> FUN",
         "`fight` `rps` `coinflip` `meme` `reverse` `hangman` `trivia` `fact` `Shuffle-guess`")
       
       .setFooter('Bot Made By SHAHHRIb | Prefix: +')
@@ -73,7 +73,7 @@ const disbut = require("discord-buttons");
       .setDescription('** *HEAven Guarder*  is one of the only free all in one bots that has many features like tickets, reaction roles, uptimer and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .setColor("#f4c2c2")
       .addField(
-        "🔺 UPTIMER",
+        "<:atlanta_up:598171826052530196> UPTIMER",
         "`add` `stats` `total` `projects` `uptime-help` `remove`")
       
       .setFooter('Bot Made By SHAHRIb | Prefix: +')
@@ -137,7 +137,7 @@ module.exports = {
       .setDescription('** *HEAven Guarder*  is one of the only free all in one bots that has many features like tickets, reaction roles, uptimer and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .setColor("#f4c2c2")
       .addField("📜 COMMAND CATEGORIES",
-        "**<:badge:929242121226035271>  ADMIN\n☕  GENERAL\n🎉  GIVEAWAY\n<:heart1:929240076318302248>  INFO\n🖼️  IMAGE\n🤣  FUN\n🔺  UPTIMER**")
+        "**<:atlanta_moderation_category:789030389741781033>  ADMIN\n<:atlanta_general_category:789030444167200808>  GENERAL\n🎉  GIVEAWAY\n<:heart1:929240076318302248>  INFO\n<:atlanta_images_category:789030084861362257>  IMAGE\n<:atlanta_fun_category:789030226607996958>  FUN\n<:atlanta_up:598171826052530196>  UPTIMER**")
       
       .setFooter('HEAven Guarder | Prefix: +')
 
