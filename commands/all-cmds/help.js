@@ -18,7 +18,7 @@ const disbut = require("discord-buttons");
       .setColor("#f4c2c2")
       .addField(
         "<:badge:929242121226035271> MODERATION",
-        "`ban` `unban` `kick` `addemoji` `addrole` `removerole` `announce` `setnick` `resetnick` `ticket` `nuke` `lockchannel` `purge` `slowmode` `mute` `unmute` `greet-embed-toggle` `purge-channel`")
+        "`ban` `unban` `kick` `avatar` `addemoji` `addrole` `removerole` `announce` `setnick` `resetnick` `purge-channel` `lockchannel` `/purge` `slowmode` `mute` `unmute` `greet-embed-toggle` `timedlockdown`")
   
       .setFooter('HEAven Guarder | Prefix: +')
     let embed3 = new Discord.MessageEmbed()
@@ -27,7 +27,7 @@ const disbut = require("discord-buttons");
       .setColor("#f4c2c2")
       .addField(
         "☕ GENERAL",
-        "`servericon` `calculator` `invite` `membercount` `help` `serverinfo` `leaderboard` `snipe` `embed`")
+        "`servericon` `calculator` `invite` `membercount` `botinfo` `serverinfo` `leaderboard` `snipe` `embed`")
      
       .setFooter('Bot Made By SHAHRIb | Prefix: +')
     let embed4 = new Discord.MessageEmbed()
@@ -54,7 +54,7 @@ const disbut = require("discord-buttons");
       .setColor("#f4c2c2")
       .addField(
         "🖼️ Image",
-        "`tweet` `deepfry` `eject` `meme` `kangaroo` `dog` `cat` `changemymind` `fire` `respect` `scary`")
+        "`tweet` `fact` `deepfry` `eject` `meme` `kangaroo` `dog` `cat` `changemymind` `fire` `respect` `scary`")
       
       .setFooter('Bot Made By SHAHRIb | Prefix: +')
      let embed7 = new Discord
