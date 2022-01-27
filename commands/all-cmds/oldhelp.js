@@ -17,13 +17,14 @@ module.exports = {
       .map((cmd) => `**${default_prefix}${cmd.name}** - ${cmd.description}`);
 
     const contents =
-      "**HEAven Guarder** is an Multipurpose project, and a free discord bot that allows you to make your projects online 24/7 just by using a single cmd.\n\n" +
+      "**HEAven Guarder** is an Multipurpose project, and a free discord bot that allows you to make your Replit projects online 24/7 just by using a single cmd.\n\n" +
       commands.sort().join("\n");
 
     let embed = new MessageEmbed()
       .setTitle("<:badge:929242121226035271> Here are my comamnds!")
       .setDescription("`add,projects,remove,stats,total,uptime-help`")
       .setColor("RANDOM")
+      .addField('Warning For Glitch Users', 'Glitch is banning projects that use ping services use this service only for Replit and if you get a ban don't blame me and I am not responsible for it', true)       
       .setFooter(`Prefix: "${default_prefix}"`)
       .setThumbnail(client.user.displayAvatarURL())
       .setTimestamp();
