@@ -16,7 +16,7 @@ module.exports = {
         delEmoji: '❌',
         openColor: 'green', // default: green
         openEmoji: '🔓', // default: 🔓
-        timeout: true, // default: true | Needs to be boolean (true/false)
+        timeout: false, // default: true | Needs to be boolean (true/false)
         cooldownMsg: 'Slow Down There, you are clicking too fast!',
         categoryID: args[0],
         role: args[1] // Role which sees the ticket channel (like Support Role)
