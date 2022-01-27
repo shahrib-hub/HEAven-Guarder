@@ -24,7 +24,7 @@ module.exports = {
       .setTitle("<:badge:929242121226035271> Here are my comamnds!")
       .setDescription("`add,projects,remove,stats,total,uptime-help`")
       .setColor("RANDOM")
-      .addField('Warning For Glitch Users', 'Glitch is banning projects that use ping services use this service only for Replit and if you get a ban don't blame me and I am not responsible for it', true)       
+      .addField('Warning For Glitch Users', 'Glitch is banning projects that use ping services use this service only for Replit and if you get a ban don''t blame me and I am not responsible for it', true)       
       .setFooter(`Prefix: "${default_prefix}"`)
       .setThumbnail(client.user.displayAvatarURL())
       .setTimestamp();
