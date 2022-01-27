@@ -29,7 +29,7 @@ let button2 = new
 disbut.MessageButton()
 .setStyle('url')
 .setLabel('Support Server')
-   .setURL('https://i8.ae/uOYiy')
+   .setURL('https://dsc.gg/heavenguarder')
 return message.channel.send(helpEmbed,{
  button: [button1,button2],
  });
