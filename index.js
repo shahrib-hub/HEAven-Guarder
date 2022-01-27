@@ -105,7 +105,7 @@ client.on('guildCreate', async guild => {
   let owner = await client.users.fetch('835826354515214336')
   owner.send(new Discord.MessageEmbed()
   .setTitle("New Guild!")
-  .setDescription(`<a:fh_dot:887806752643481650> I have been added to **${guild.name}** with **${guild.memberCount}** members`)
+  .setDescription(`I have been added to **${guild.name}** with **${guild.memberCount}** members`)
   .setColor("BLACK"))
 } )                
 
