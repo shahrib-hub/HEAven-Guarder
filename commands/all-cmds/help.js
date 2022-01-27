@@ -20,14 +20,14 @@ const disbut = require("discord-buttons");
         "<:badge:929242121226035271> MODERATION",
         "`ban` `unban` `kick` `addemoji` `addrole` `removerole` `announce` `setnick` `resetnick` `ticket` `nuke` `lockchannel` `purge` `slowmode` `mute` `unmute` `greet-embed-toggle` `purge-channel`")
   
-      .setFooter('Bot Made By SHAHRIb | Prefix: +')
+      .setFooter('HEAven Guarder | Prefix: +')
     let embed3 = new Discord.MessageEmbed()
       .setTitle('** <:heart1:929240076318302248> Help Panel <:heart1:929240076318302248>**')
       .setDescription('** *HEAven Guarder*  is one of the only free all in one bots that has many features like tickets, reaction roles, uptimer and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .setColor("#f4c2c2")
       .addField(
         "☕ GENERAL",
-        "`servericon` `calculator` `invite` `membercount` `help` `serverinfo` `leaderboard` `snipe` `findemoji` `embed`")
+        "`servericon` `calculator` `invite` `membercount` `help` `serverinfo` `leaderboard` `snipe` `embed`")
      
       .setFooter('Bot Made By SHAHRIb | Prefix: +')
     let embed4 = new Discord.MessageEmbed()
@@ -137,9 +137,9 @@ module.exports = {
       .setDescription('** *HEAven Guarder*  is one of the only free all in one bots that has many features like tickets, reaction roles, uptimer and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .setColor("#f4c2c2")
       .addField("📜 COMMAND CATEGORIES",
-        "**<:badge:929242121226035271>  ADMIN\n☕  GENERAL\n🎉  GIVEAWAY\n<:heart1:929240076318302248>  INFO\n🖼️  IMAGE\n🎶  MUSIC\n🤣  FUN\n🔺  UPTIMER**")
+        "**<:badge:929242121226035271>  ADMIN\n☕  GENERAL\n🎉  GIVEAWAY\n<:heart1:929240076318302248>  INFO\n🖼️  IMAGE\n🤣  FUN\n🔺  UPTIMER**")
       
-      .setFooter('Bot Made By SHAHRIb | Prefix: +')
+      .setFooter('HEAven Guarder | Prefix: +')
 
 
     
