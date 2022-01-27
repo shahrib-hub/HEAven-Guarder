@@ -1,0 +1,7 @@
+worker: bash node.sh
+
+
+
+
+
+
