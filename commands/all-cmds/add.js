@@ -22,7 +22,7 @@ module.exports = {
 
     // LOADING
     let waitEmbed = new MessageEmbed().setDescription(
-      "<a:HYPR_Loading:802069819842625556> Please wait..."
+      "<a:atlanta_loading:743090350490648727> Please wait..."
     );
     var messageAlert = await message.channel.send(message.author, waitEmbed);
 
@@ -55,7 +55,7 @@ module.exports = {
 
         // NOTIFIES WITH AN EMBED THAT PROJECT IS SUCCESSFULLY REGISTERED
         let embed = new MessageEmbed()
-          .setTitle("✅ Added Succesfully!")
+          .setTitle("<:atlanta_success:736144092123234354> Added Succesfully!")
           .setDescription("Thanks for using me")
           .setColor("RANDOM")
           .setTimestamp();
@@ -66,7 +66,7 @@ module.exports = {
       // RUNS WHEN THE PROJECT IS ALREADY IN DATABASE
       let embed = new MessageEmbed()
         .setTitle(
-          "❌ Project is already Registered!"
+          "<:atlanta_error:736144198318686278> Project is already Registered!"
         )
         .setDescription(
           "The project you're trying to register is already in the Database"
