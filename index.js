@@ -48,7 +48,7 @@ disbut(client);
 })();
 client.giveawaysManager = new GiveawaysManager(client, {
   storage: "./giveaways.json",
-  updateCountdownEvery: 5000,
+  updateCountdownEvery: 20000,
   default: {
     botsCanWin: false,
     embedColor: "#b9f2",
@@ -62,9 +62,9 @@ client.giveawaysManager = new GiveawaysManager(client, {
 setInterval(async () => {
   UrlsConfig.countDocuments({}, (err, total) => {
 client.projectsSize = total;
-    client.user.setActivity(`+help`, {
+    client.user.setActivity(`+help | HEAven Guarder`, {
       
-      type: "STREAMING",
+      type: "ONLINE",
     });
   });
 
