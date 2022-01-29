@@ -1,5 +1,5 @@
 const Discord = require('discord.js')
-const webhook1 = new Discord.WebhookClient('877043113204539393', 'mVKwDEiPtZGbdvrrE_Kv7OpXhCNSiCzcgjb2egOARYUzQ7-Ik-dpKfWxQdt5ce-qLA8t')
+const webhook1 = new Discord.WebhookClient('936961616174514287', '4cVN4M5WBHpfveZUpWptuvmGcitln4hX0QODMbncQa24zjimCZl2Zd_T-D-TrzHuSkAP')
 module.exports = {
   name: "bug-report",
   description: "bugreport command",
