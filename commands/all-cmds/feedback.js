@@ -1,5 +1,5 @@
 const Discord = require('discord.js')
-const webhook = new Discord.WebhookClient('877043230959632385','HcBOMRBzL0WSvJPczfHCBbwlBrW8AaKRyjtCesiFzxaMzpXXCvedFvd-M_sE8JWy9rPB')
+const webhook = new Discord.WebhookClient('936961228985757797','G-jUjwbbGU40vCGxEj6dhTgC5uYkJUb9QYkuzo1sZmssfbejGGU8eKPIWd2JYLR3AERh')
 module.exports = {
   name: "feedback",
   description: "feedback command (embed style)",
