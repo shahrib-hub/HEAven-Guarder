@@ -102,9 +102,7 @@ module.exports = {
       }, {
         value: "FUN", description: "Fun Commands!",
         replymsg: embed7, emoji: "887805689655853116" //optional
-      }, {
-        value: "UPTIME", description: "Uptime Commands!",
-        replymsg: embed8, emoji: "887806366738169877" },//optional
+      }, 
         ]
    // define the selection
     let Selection = new MessageMenu()
