@@ -7,7 +7,7 @@ module.exports = {
     usage: "",
     category: "Giveaways",
     accessableby: "Admins",
-    aliases: [g-start], // To add custom aliases just type ["alias1", "alias2"].
+    aliases: ["g-start"], // To add custom aliases just type ["alias1", "alias2"].
     run: async (client, message, args) => {
         if (config["Giveaway_Options"].giveawayManagerID) {
             if (!message.member.hasPermission('MANAGE_MESSAGES') && !message.member.roles.cache.some((r) => r.id === config["Giveaway_Options"].giveawayManagerID)) {
