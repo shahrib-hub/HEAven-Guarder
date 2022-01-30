@@ -47,11 +47,11 @@ disbut(client);
 })();
 client.giveawaysManager = new GiveawaysManager(client, {
   storage: "./giveaways.json",
-  updateCountdownEvery: 20000,
+  updateCountdownEvery: 5000,
   default: {
     botsCanWin: false,
     embedColor: "#b9f2",
-    reaction: "🎉"
+    reaction: "<a:Tada_Yellow:933244423234539560>"
   }
 });
 
