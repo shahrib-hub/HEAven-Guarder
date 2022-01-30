@@ -9,7 +9,7 @@ const disbut = require("discord-buttons");
       .setDescription('** *HEAven Guarder*  is one of the only free all in one bots that has many features like tickets, reaction roles and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .setColor("#f4c2c2")
       .addField("<:yes:929246071006314496> COMMAND CATEGORIES",
-        "<:atlanta_administration_category:789030159419310101>  ADMIN\n<:atlanta_general_category:789030444167200808>  GENERAL\n<a:Tada_Yellow:933244423234539560>  GIVEAWAY\n💙  INFO\n<:atlanta_images_category:789030084861362257>  IMAGE\n<:atlanta_fun_category:789030226607996958>  FUN\n<a:pin:908666657520619550> Slash Commands**")
+        "<:atlanta_administration_category:789030159419310101>  ADMIN\n<:atlanta_general_category:789030444167200808>  GENERAL\n<a:Tada_Yellow:933244423234539560>  GIVEAWAY\n💙  INFO\n<a:money:908685366184271923> ECONOMY\n<:atlanta_images_category:789030084861362257>  IMAGE\n<:atlanta_fun_category:789030226607996958>  FUN\n<a:pin:908666657520619550> SLASH COMMANDS**")
       
       .setFooter('HEAven Guarder | Prefix: +')
     let embed2 = new Discord.MessageEmbed()
@@ -77,6 +77,16 @@ const disbut = require("discord-buttons");
         "`addemoji` `autoplay` `avatar` `ban` `botguild` `botinfo` `channel-info` `channels` `clear` `emojis` `filter` `invite` `join` `joke` `meme` `jump` `mute` `nowplay` `pause` `ping` `play` `resume` `purge` `clear` `queue` `role-info` `roll` `seek` `server` `shorturl` `shuffle` `skip` `stop` `support` `unban` `unmute` `volume`")
             
       .setFooter('HEAven Guarder | Prefix: +')
+     let embed9 = new Discord
+     .MessageEmbed()
+       .setTitle('** <:heart1:929240076318302248> Help Panel <:heart1:929240076318302248>**')
+      .setDescription('** *HEAven Guarder*  is one of the only free all in one bots that has many features like tickets, reaction roles and buttons while keeping the minimalistic feel and look that every bot user loves.**')
+      .setColor("#f4c2c2")
+      .addField(
+        "<a:money:908685366184271923> ECONOMY",
+        "`addmoney` `bal` `beg` `buy` `daily` `leaderboard` `rob` `search` `setmoney` `shop` `give` `weekly` `work`")
+            
+      .setFooter('HEAven Guarder | Prefix: +')
 
 
     
@@ -107,13 +117,16 @@ module.exports = {
         value: "INFO", description: "Information Commands!",
         replymsg: embed5, emoji: "878156514018332703" //optional
       }, {
+        value: "ECONOMY", description: "Economy Commands!",
+        replymsg: embed9, emoji: "908685366184271923" //optional
+      }, {
         value: "IMAGE", description: "Image Commands!",
         replymsg: embed6, emoji: "884252787444158504" //optional
       }, {
         value: "FUN", description: "Fun Commands!",
         replymsg: embed7, emoji: "887805689655853116" //optional
       }, {
-        value: "SLASH COMMANDS", description: "All Slash Commands!",
+        value: "SLASH COMMANDS", description: "Slash Commands!",
         replymsg: embed8, emoji: "908666657520619550" //optional
       }, 
         ]
@@ -139,7 +152,7 @@ module.exports = {
       .setDescription('** *HEAven Guarder*  is one of the only free all in one bots that has many features like tickets, reaction roles and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .setColor("#f4c2c2")
       .addField("📜 COMMAND CATEGORIES",
-        "**<:atlanta_moderation_category:789030389741781033>  ADMIN\n<:atlanta_general_category:789030444167200808>  GENERAL\n<a:Tada_Yellow:933244423234539560>  GIVEAWAY\n<:heart1:929240076318302248>  INFO\n<:atlanta_images_category:789030084861362257>  IMAGE\n<:atlanta_fun_category:789030226607996958>  FUN\n<a:pin:908666657520619550> Slash Commands**")
+        "**<:atlanta_moderation_category:789030389741781033>  ADMIN\n<:atlanta_general_category:789030444167200808>  GENERAL\n<a:Tada_Yellow:933244423234539560>  GIVEAWAY\n<:heart1:929240076318302248>  INFO\n<a:money:908685366184271923> ECONOMY\n<:atlanta_images_category:789030084861362257>  IMAGE\n<:atlanta_fun_category:789030226607996958>  FUN\n<a:pin:908666657520619550> Slash Commands**")
       
       .setFooter('HEAven Guarder | Prefix: +')
 
