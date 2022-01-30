@@ -57,22 +57,23 @@ let option1 = new MessageMenuOption()
 
         let embed = new Discord.MessageEmbed()
         .setColor("#f4c2c2").setTitle("Choose your option!")
+
         let embed3 = new Discord.MessageEmbed()
-  .setTitle("Version info")
- .addField(`Current version`,`**v1.9**`)
- .addField(`Next Version To Be Launched`,`**v1.10**`)
- .addField(` ⏱| Latency!`,` **${client.ws.ping}ms** Latency!`)
-  .setColor("RED")
-  .addField(`OWNER OF THE BOT`,`**SHAHRIb#9961**`)
+        .setTitle("Version info")
+        .addField(`Current version`,`**v1.9**`)
+        .addField(`Next Version To Be Launched`,`**v1.10**`)
+        .addField(` ⏱| Latency!`,` **${client.ws.ping}ms** Latency!`)
+        .setColor("RED")
+        .addField(`OWNER OF THE BOT`,`**SHAHRIb#9961**`)
 
         let embed4 = new Discord.MessageEmbed()
-  .setTitle("ALL Cluster's Info")
- .addField(`<:atlanta_online:616613445424513028> Cluster #0`,`Shards: #1, #2\n Server Limit: 2000\n Memory: 100mb STABLE\n Ping: 80ms STABLE\n Condition: NORMAL`)
- .addField(`<:atlanta_online:616613445424513028> Cluster #1`,`Shards: #3, #4\n Server Limit: 200\n Memory: 500mb STABLE\n Ping: 20ms STABLE\n Condition: VERY GOOD`)
- .addField(`<:atlanta_dnd:616613445252546570> Cluster #2 `,`Shards: #5, #6\n Server Limit: 150\n Memory: 29mb UNSTABLE\n Ping: 176ms STABLE\n Condition: OVERLOADED`)
-.addField(`<:atlanta_idle:616613445290164224> Cluster #3`,`Shards: #7, #8\n Server Limit: 50000\n Memory: 300mb STABLE\n Ping: 35ms STABLE\n Condition: IDLE`)
-  .setColor("YELLOW")
-  .addField(`<:atlanta_offline:616613445487558696> Cluster #4`,`Shards: #9, #10\n Server Limit: 50000\n Memory: 0mb\n Ping: 0ms\n Condition: CRASHED`)
+        .setTitle("ALL Cluster's Info")
+        .addField(`<:atlanta_online:616613445424513028> Cluster #0`,`Shards: #1, #2\n Server Limit: 2000\n Memory: 100mb STABLE\n Ping: 80ms STABLE\n Condition: NORMAL`)
+        .addField(`<:atlanta_online:616613445424513028> Cluster #1`,`Shards: #3, #4\n Server Limit: 200\n Memory: 500mb STABLE\n Ping: 20ms STABLE\n Condition: VERY GOOD`)
+        .addField(`<:atlanta_dnd:616613445252546570> Cluster #2 `,`Shards: #5, #6\n Server Limit: 150\n Memory: 29mb UNSTABLE\n Ping: 176ms STABLE\n Condition: OVERLOADED`) 
+        .addField(`<:atlanta_idle:616613445290164224> Cluster #3`,`Shards: #7, #8\n Server Limit: 50000\n Memory: 300mb STABLE\n Ping: 35ms STABLE\n Condition: IDLE`)
+        .setColor("YELLOW")
+        .addField(`<:atlanta_offline:616613445487558696> Cluster #4`,`Shards: #9, #10\n Server Limit: 50000\n Memory: 0mb\n Ping: 0ms\n Condition: CRASHED`)
 
 
   let menumsg = await message.channel.send(embed, selection)
@@ -87,6 +88,9 @@ let option1 = new MessageMenuOption()
                 break;
                 case "Option 3": 
                     menu.reply.send(embed3, true)
+                break;
+                case "Option 4": 
+                    menu.reply.send(embed4, true)
                 break;
             }
         }
