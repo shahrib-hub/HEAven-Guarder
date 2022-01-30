@@ -35,8 +35,8 @@ const disbut = require("discord-buttons");
       .setDescription('** *HEAven Guarder*  is one of the only free all in one bots that has many features like tickets, reaction roles and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .setColor("#f4c2c2")
       .addField(
-        "<a:Tada_Yellow:933244423234539560> GIVEAWAY",
-        "`gstart` `gend` `greroll`")
+        "<a:prize:933244459171348510> GIVEAWAY",
+        "`gstart` `ghelp` `gend` `greroll`")
       
       .setFooter('Bot Made By SHAHRIb | Prefix: +')
     let embed5 = new Discord.MessageEmbed()
