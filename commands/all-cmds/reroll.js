@@ -6,7 +6,7 @@ module.exports = {
     usage: "",
     category: "Giveaways",
     accessableby: "Admins",
-    aliases: [g-reroll], // To add custom aliases just type ["alias1", "alias2"].
+    aliases: ["g-reroll"], // To add custom aliases just type ["alias1", "alias2"].
     run: async (client, message, args) => {
         if (!message.member.hasPermission('MANAGE_MESSAGES') && !message.member.roles.cache.some((r) => r.name === "Giveaways")) {
             return message.channel.send(':boom: You need to have the \`MANAGE_MESSAGES\` permission to reroll giveaways.');
