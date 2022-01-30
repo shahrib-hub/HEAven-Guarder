@@ -103,10 +103,10 @@ module.exports = {
                 winnerCount: parseInt(giveawayNumberWinners),
                 hostedBy: config["Giveaway_Options"].hostedBy ? message.author : null,
                 messages: {
-                    giveaway: ":tada: **GIVEAWAY** :tada:",
-                    giveawayEnded: ":tada: **GIVEAWAY ENDED** :tada:",
+                    giveaway: "<a:Tada_Yellow:933244423234539560> **GIVEAWAY** <a:Tada_Yellow:933244423234539560>",
+                    giveawayEnded: "<a:prize:933244459171348510> **GIVEAWAY ENDED** <a:prize:933244459171348510>",
                     timeRemaining: "Time remaining: **{duration}**!",
-                    inviteToParticipate: "React with 🎉 to participate!",
+                    inviteToParticipate: "React with <a:Tada_Yellow:933244423234539560> to participate!",
                     winMessage: "Congratulations, {winners}! You won the **{prize}**!",
                     embedFooter: "Giveaways",
                     noWinner: "Not enough entrants to determine a winner!",
@@ -130,10 +130,10 @@ module.exports = {
                 winnerCount: parseInt(giveawayNumberWinners),
                 hostedBy: config["Giveaway_Options"].hostedBy ? message.author : null,
                 messages: {
-                    giveaway: (config["Giveaway_Options"].showMention ? `@everyone\n\n` : "") + ":tada: **GIVEAWAY** :tada:",
-                    giveawayEnded: (config["Giveaway_Options"].showMention ? `@everyone\n\n` : "") + ":tada: **GIVEAWAY ENDED** :tada:",
+                    giveaway: (config["Giveaway_Options"].showMention ? `@everyone\n\n` : "") + "<a:Tada_Yellow:933244423234539560> **GIVEAWAY** <a:Tada_Yellow:933244423234539560>",
+                    giveawayEnded: (config["Giveaway_Options"].showMention ? `@everyone\n\n` : "") + "<a:prize:933244459171348510> **GIVEAWAY ENDED** <a:prize:933244459171348510>",
                     timeRemaining: "Time remaining: **{duration}**!",
-                    inviteToParticipate: "React with 🎉 to participate!",
+                    inviteToParticipate: "React with <a:Tada_Yellow:933244423234539560> to participate!",
                     winMessage: "Congratulations, {winners}! You won the **{prize}**!",
                     embedFooter: "Giveaways",
                     noWinner: "Not enough entrants to determine a winner!",
@@ -156,8 +156,8 @@ module.exports = {
                 winnerCount: parseInt(giveawayNumberWinners),
                 hostedBy: config["Giveaway_Options"].hostedBy ? message.author : null,
                 messages: {
-                    giveaway: ":tada: **GIVEAWAY** :tada:",
-                    giveawayEnded: ":tada: **GIVEAWAY ENDED** :tada:",
+                    giveaway: "<a:Tada_Yellow:933244423234539560> **GIVEAWAY** <a:Tada_Yellow:933244423234539560>",
+                    giveawayEnded: "<a:prize:933244459171348510> **GIVEAWAY ENDED** <a:prize:933244459171348510>",
                     timeRemaining: "Time remaining: **{duration}**!",
                     inviteToParticipate: "React with <a:Tada_Yellow:933244423234539560> to participate!",
                     winMessage: "Congratulations, {winners}! You won the **{prize}**!",
@@ -178,6 +178,6 @@ module.exports = {
         }
 
 
-        message.channel.send(`<a:Tada_Yellow:933244423234539560> Done! The giveaway for the \`${giveawayPrize}\` is starting in ${giveawayChannel}!`);
+        message.channel.send(`<a:Tada_Yellow:933244423234539560> Done! The giveaway for the \`${giveawayPrize}\` is starting in ${giveawayChannel}! Enjoy :) <a:prize:933244459171348510>`);
     }
 }
