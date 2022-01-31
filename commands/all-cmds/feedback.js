@@ -12,7 +12,7 @@ module.exports = {
 
     const feedbackEmbed = new Discord.MessageEmbed()
       .setColor("RANDOM")
-      .setTitle(`${message.author.username}#${message.author.discriminator} (${message.author.id}) Fedback:`)
+      .setTitle(`${message.author.username}#${message.author.discriminator} (${message.author.id}) Feedback:`)
       .setDescription(`${args}`)
       .addField("On the server:", `${message.guild.name}`)
       .addField("Server ID:", `${message.guild.id}`)
