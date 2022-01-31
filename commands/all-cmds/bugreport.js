@@ -13,7 +13,7 @@ module.exports = {
 
     const bugReportEmbed = new Discord.MessageEmbed()
       .setColor("RANDOM")
-      .setTitle(`${message.author.username}#${message.author.discriminator} (${message.author.id}) Bug:`)
+      .setTitle(`${message.author.username}#${message.author.discriminator} (${message.author.id}) Bug Report:`)
       .setDescription(`${args}`)
       .addField("On the server:", `${message.guild.name}`)
       .addField("Server ID:", `${message.guild.id}`)
