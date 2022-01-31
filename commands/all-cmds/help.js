@@ -5,7 +5,7 @@ const { button, MessageButton, MessageActionRow, MessageMenuOption, MessageMenu 
 const disbut = require("discord-buttons");
 
     let embed1 = new Discord.MessageEmbed()
-      .setTitle('**<:heart1:929240076318302248> Help Panel <:heart1:929240076318302248>**')
+      .setTitle('**<a:Rainbow_heart:937584806923993128> Help Panel <a:Rainbow_heart:937584806923993128>**')
       .setDescription('** *HEAven Guarder*  is one of the only free all in one bots that has many features like tickets, reaction roles and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .setColor("#f4c2c2")
       .addField("<:yes:929246071006314496> COMMAND CATEGORIES",
@@ -13,7 +13,7 @@ const disbut = require("discord-buttons");
   
       .setFooter('HEAven Guarder | Prefix: +')
     let embed2 = new Discord.MessageEmbed()
-      .setTitle('**<:heart1:929240076318302248> Help Panel <:heart1:929240076318302248>**')
+      .setTitle('**<a:Rainbow_heart:937584806923993128> Help Panel <a:Rainbow_heart:937584806923993128>**')
       .setDescription('** *HEAven Guarder*  is one of the only free all in one bots that has many features like tickets, reaction roles and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .setColor("#f4c2c2")
       .addField(
@@ -22,7 +22,7 @@ const disbut = require("discord-buttons");
   
       .setFooter('HEAven Guarder | Prefix: +')
     let embed3 = new Discord.MessageEmbed()
-      .setTitle('** <:heart1:929240076318302248> Help Panel <:heart1:929240076318302248>**')
+      .setTitle('**<a:Rainbow_heart:937584806923993128> Help Panel <a:Rainbow_heart:937584806923993128>**')
       .setDescription('** *HEAven Guarder*  is one of the only free all in one bots that has many features like tickets, reaction roles and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .setColor("#f4c2c2")
       .addField(
@@ -31,7 +31,7 @@ const disbut = require("discord-buttons");
      
       .setFooter('HEAven Guarder | Prefix: +')
     let embed4 = new Discord.MessageEmbed()
-      .setTitle('** <:heart1:929240076318302248> Help Panel <:heart1:929240076318302248>**')
+      .setTitle('**<a:Rainbow_heart:937584806923993128> Help Panel <a:Rainbow_heart:937584806923993128>**')
       .setDescription('** *HEAven Guarder*  is one of the only free all in one bots that has many features like tickets, reaction roles and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .setColor("#f4c2c2")
       .addField(
@@ -40,7 +40,7 @@ const disbut = require("discord-buttons");
       
       .setFooter('Bot Made By SHAHRIb | Prefix: +')
     let embed5 = new Discord.MessageEmbed()
-      .setTitle('** <:heart1:929240076318302248> Help Panel <:heart1:929240076318302248>**')
+      .setTitle('**<a:Rainbow_heart:937584806923993128> Help Panel <a:Rainbow_heart:937584806923993128>**')
       .setDescription('** *HEAven Guarder*  is one of the only free all in one bots that has many features like tickets, reaction roles and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .setColor("#f4c2c2")
       .addField(
@@ -49,7 +49,7 @@ const disbut = require("discord-buttons");
       
       .setFooter('HEAven Guarder | Prefix: +')
     let embed6 = new Discord.MessageEmbed()
-      .setTitle('** <:heart1:929240076318302248> Help Panel <:heart1:929240076318302248>**')
+      .setTitle('**<a:Rainbow_heart:937584806923993128> Help Panel <a:Rainbow_heart:937584806923993128>**')
       .setDescription('** *HEAven Guarder*  is one of the only free all in one bots that has many features like tickets, reaction roles and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .setColor("#f4c2c2")
       .addField(
@@ -59,7 +59,7 @@ const disbut = require("discord-buttons");
       .setFooter('HEAven Guarder | Prefix: +')
      let embed7 = new Discord
      .MessageEmbed()
-       .setTitle('** <:heart1:929240076318302248> Help Panel <:heart1:929240076318302248>**')
+       .setTitle('**<a:Rainbow_heart:937584806923993128> Help Panel <a:Rainbow_heart:937584806923993128>**')
       .setDescription('** *HEAven Guarder*  is one of the only free all in one bots that has many features like tickets, reaction roles  and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .setColor("#f4c2c2")
       .addField(
@@ -69,7 +69,7 @@ const disbut = require("discord-buttons");
       .setFooter('HEAven Guarder | Prefix: +')   
      let embed8 = new Discord
      .MessageEmbed()
-       .setTitle('** <:heart1:929240076318302248> Help Panel <:heart1:929240076318302248>**')
+       .setTitle('**<a:Rainbow_heart:937584806923993128> Help Panel <a:Rainbow_heart:937584806923993128>**')
       .setDescription('** *HEAven Guarder*  is one of the only free all in one bots that has many features like tickets, reaction roles and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .setColor("#f4c2c2")
       .addField(
@@ -79,7 +79,7 @@ const disbut = require("discord-buttons");
       .setFooter('HEAven Guarder | Prefix: +')
      let embed9 = new Discord
      .MessageEmbed()
-       .setTitle('** <:heart1:929240076318302248> Help Panel <:heart1:929240076318302248>**')
+       .setTitle('**<a:Rainbow_heart:937584806923993128> Help Panel <a:Rainbow_heart:937584806923993128>**')
       .setDescription('** *HEAven Guarder*  is one of the only free all in one bots that has many features like tickets, reaction roles and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .setColor("#f4c2c2")
       .addField(
@@ -148,11 +148,11 @@ module.exports = {
     //define the embed
    
     let MenuEmbed = new Discord.MessageEmbed()
-      .setTitle('** <:heart1:929240076318302248> Help Panel <:heart1:929240076318302248>**')
+      .setTitle('**<a:Rainbow_heart:937584806923993128> Help Panel <a:Rainbow_heart:937584806923993128>**')
       .setDescription('** *HEAven Guarder*  is one of the only free all in one bots that has many features like tickets, reaction roles and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .setColor("#f4c2c2")
       .addField("📜 COMMAND CATEGORIES",
-        "**<:atlanta_moderation_category:789030389741781033>  ADMIN\n<:atlanta_general_category:789030444167200808>  GENERAL\n<a:Tada_Yellow:933244423234539560>  GIVEAWAY\n<:heart1:929240076318302248>  INFO\n<a:money:908685366184271923> ECONOMY\n<:atlanta_images_category:789030084861362257>  IMAGE\n<:atlanta_fun_category:789030226607996958>  FUN\n<a:pin:908666657520619550> Slash Commands**")
+        "**<:atlanta_moderation_category:789030389741781033>  ADMIN\n<:atlanta_general_category:789030444167200808>  GENERAL\n<a:Tada_Yellow:933244423234539560>  GIVEAWAY\n<a:Rainbow_heart:937584806923993128>  INFO\n<a:money:908685366184271923> ECONOMY\n<:atlanta_images_category:789030084861362257>  IMAGE\n<:atlanta_fun_category:789030226607996958>  FUN\n<a:pin:908666657520619550> Slash Commands**")
       
       .setFooter('HEAven Guarder | Prefix: +')
 
