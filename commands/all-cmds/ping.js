@@ -6,7 +6,7 @@ module.exports = {
   authorPermission: [],
   
   run: async (client, message, args) => {
-    message.channel.send(`🏓Latency is ${Date.now() - message.createdTimestamp}ms. API Latency is ${Math.round(client.ws.ping)}ms`);
+    message.channel.send(`<a:network:937571241685053480> Latency is ${Date.now() - message.createdTimestamp}ms.<a:network:937571241685053480> API Latency is ${Math.round(client.ws.ping)}ms`);
   }
 }
 
