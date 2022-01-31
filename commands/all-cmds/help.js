@@ -3,7 +3,7 @@ const disbutpages = require("discord-embeds-pages-buttons")
 const Discord = require("discord.js")
 const { button, MessageButton, MessageActionRow, MessageMenuOption, MessageMenu } = require('discord-buttons');
 const disbut = require("discord-buttons");
- 
+run: async (interaction, client) => { 
     let embed1 = new Discord.MessageEmbed()
       .setTitle('**<:heart1:929240076318302248> Help Panel <:heart1:929240076318302248>**')
       .setDescription('** *HEAven Guarder*  is one of the only free all in one bots that has many features like tickets, reaction roles and buttons while keeping the minimalistic feel and look that every bot user loves.**')
@@ -174,4 +174,5 @@ module.exports = {
       }
     });
   }
+ }
 }
