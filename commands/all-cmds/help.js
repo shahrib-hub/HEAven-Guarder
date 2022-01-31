@@ -10,7 +10,8 @@ const disbut = require("discord-buttons");
       .setColor("#f4c2c2")
       .addField("<:yes:929246071006314496> COMMAND CATEGORIES",
         "<:atlanta_administration_category:789030159419310101>  ADMIN\n<:atlanta_general_category:789030444167200808>  GENERAL\n<a:Tada_Yellow:933244423234539560>  GIVEAWAY\n💙  INFO\n<a:money:908685366184271923> ECONOMY\n<:atlanta_images_category:789030084861362257>  IMAGE\n<:atlanta_fun_category:789030226607996958>  FUN\n<a:pin:908666657520619550> SLASH COMMANDS**")
-      
+      .addField("<a:loading:936612829652451348> Client Information","<:folder:937273629891252284> on **${client.guilds.cache.size} Guilds**\n<a:music_beat:937571594618933250> **${duration(client.uptime).map(i=> `\`${i}\``).join(", ")} Uptime**\n<a:network:922766378199580682> **\`${Math.floor(client.ws.ping)}ms\` Ping**")
+  
       .setFooter('HEAven Guarder | Prefix: +')
     let embed2 = new Discord.MessageEmbed()
       .setTitle('**<:heart1:929240076318302248> Help Panel <:heart1:929240076318302248>**')
