@@ -84,9 +84,9 @@ const disbut = require("discord-buttons");
       .setColor("#f4c2c2")
       .addField(
         "<a:money:908685366184271923> ECONOMY",
-        "`addmoney` `bal` `beg` `buy` `daily` `leaderboard` `rob` `search` `setmoney` `shop` `give` `weekly` `work`")
+        "`gamble` `bal` `beg` `buy` `daily` `leaderboard` `rob` `search` `gift` `shop` `give` `crime` `post-cat` `post-meme` `shop` `slots` `vote` `use` `roulette` `sell` `rich` `mine` `passive`  `fish` `hunt` `inventory` `deposit` `withdraw`  `profile` `blackjack`  `work`")
             
-      .setFooter('HEAven Guarder | Prefix: +')
+      .setFooter('HEAven Guarder | Prefix: !h for economy')
 
 
     
