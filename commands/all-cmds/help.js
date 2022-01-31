@@ -45,7 +45,7 @@ const disbut = require("discord-buttons");
       .setColor("#f4c2c2")
       .addField(
         "<a:Rainbow_heart:937584806923993128> INFO",
-        "`avatar` `bug-report` `feedback` `developer` `help` `position` `urban` `vote` `weather` `status` `channelinfo` `rolememberinfo`")
+        "`avatar` `bug-report` `feedback` `suggest` `developer` `help` `position` `urban` `vote` `weather` `status` `channelinfo` `rolememberinfo`")
       
       .setFooter('HEAven Guarder | Prefix: +')
     let embed6 = new Discord.MessageEmbed()
