@@ -21,7 +21,7 @@ module.exports = {
     run: async(client, message) => {
         const embed = new discord.MessageEmbed()
         .setTitle("Bot's ping")
-        .setDescription(`API latency is - ${client.ws.ping}ms\n Message Latency is ${Date.now() - message.createdTimestamp}ms.`)
+        .setDescription(`<a:music_beat:937571594618933250> API latency is - ${client.ws.ping}ms\n<a:network:937571241685053480> Message Latency is ${Date.now() - message.createdTimestamp}ms.`)
         message.channel.send(embed)
     }
 }
