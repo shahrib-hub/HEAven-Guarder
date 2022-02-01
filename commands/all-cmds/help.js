@@ -84,7 +84,7 @@ const disbut = require("discord-buttons");
       .setColor("#f4c2c2")
       .addField(
         "<a:money:908685366184271923> ECONOMY [Prefix: !h]",
-        "`!h gamble` `!h bal` `!h beg` `!h buy` `!h daily` `!h rob` `!h search` `!h gift` `!h shop` `!h give` `!h crime` `!h post-cat` `!h post-meme` `!h slots` `!h vote` `!h use` `!h roulette` `!h sell` `!h rich` `!h mine` `!h passive`  `!h fish` `!h hunt` `!h inventory` `!h deposit` `!h withdraw`  `!h profile` `!h blackjack`  `!h work`")
+        "`gamble` `bal` `beg` `buy` `daily` `rob` `search` `gift` `shop` `give` `crime` `post-cat` `post-meme` `slots` `vote` `use` `roulette` `sell` `rich` `mine` `passive`  `fish` `hunt` `inventory` `deposit` `withdraw`  `profile` `blackjack`  `work`")
             
       .setFooter('HEAven Guarder | Prefix: !h for economy')
 
