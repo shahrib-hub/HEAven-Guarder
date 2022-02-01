@@ -9,7 +9,7 @@ const disbut = require("discord-buttons");
       .setDescription('** *HEAven Guarder*  is one of the only free all in one bots that has many features like tickets, reaction roles and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .setColor("#f4c2c2")
       .addField("<a:correct:937681819812392970> COMMAND CATEGORIES",
-        "**<:atlanta_administration_category:789030159419310101>  ADMIN\n<:atlanta_general_category:789030444167200808>  GENERAL\n<a:Tada_Yellow:933244423234539560>  GIVEAWAY\n💙  INFO\n<a:money:908685366184271923> ECONOMY\n<:atlanta_images_category:789030084861362257>  IMAGE\n<:atlanta_fun_category:789030226607996958>  FUN\n<a:pin:908666657520619550> SLASH COMMANDS**")
+        "**<:atlanta_administration_category:789030159419310101>  ADMIN\n<:atlanta_general_category:789030444167200808>  GENERAL\n<a:Tada_Yellow:933244423234539560>  GIVEAWAY\n💙  INFO\n<a:money:908685366184271923> ECONOMY\n<:atlanta_images_category:789030084861362257>  IMAGE\n<:atlanta_fun_category:789030226607996958>  FUN\n<a:level_up:938072252778426409> LEVELLING\n<a:pin:908666657520619550> SLASH COMMANDS**")
   
       .setFooter('HEAven Guarder | Prefix: +')
     let embed2 = new Discord.MessageEmbed()
@@ -73,7 +73,7 @@ const disbut = require("discord-buttons");
       .setDescription('** *HEAven Guarder*  is one of the only free all in one bots that has many features like tickets, reaction roles and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .setColor("#f4c2c2")
       .addField(
-        "<a:pin:908666657520619550> Slash Commands",
+        "<a:pin:908666657520619550> SLASH COMMANDS",
         "`addemoji` `autoplay` `avatar` `ban` `botguild` `botinfo` `channel-info` `channels` `clear` `emojis` `filter` `invite` `join` `joke` `meme` `jump` `mute` `nowplay` `pause` `ping` `play` `resume` `purge` `clear` `queue` `role-info` `roll` `seek` `server` `shorturl` `shuffle` `skip` `stop` `support` `unban` `unmute` `volume`")
             
       .setFooter('HEAven Guarder | Prefix: +')
@@ -87,13 +87,23 @@ const disbut = require("discord-buttons");
         "`gamble` `bal` `beg` `buy` `daily` `rob` `search` `gift` `shop` `give` `crime` `post-cat` `post-meme` `slots` `vote` `use` `roulette` `sell` `rich` `mine` `passive`  `fish` `hunt` `inventory` `deposit` `withdraw`  `profile` `blackjack`  `work`")
             
       .setFooter('HEAven Guarder | Prefix: !h for economy')
+     let embed10 = new Discord
+     .MessageEmbed()
+       .setTitle('**<a:Rainbow_heart:937584806923993128> Help Panel <a:Rainbow_heart:937584806923993128>**')
+      .setDescription('** *HEAven Guarder*  is one of the only free all in one bots that has many features like tickets, reaction roles  and buttons while keeping the minimalistic feel and look that every bot user loves.**')
+      .setColor("#f4c2c2")
+      .addField(
+        "<a:level_up:938072252778426409> LEVELLING",
+        "`rank-help` `blacklist` `add-level` `setchannel` `rank-leaderboard` `rank` `levelupmessage` `remove-level` `role-level` `set-level` `xpsettings`")
+
+      .setFooter('HEAven Guarder | Prefix: +') 
 
 
     
 
 module.exports = {
   name: "help",
-  aliases: [],
+  aliases: ["h"],
   usage: "+help",
   description: "Shows the bot help menu",
 
@@ -126,6 +136,9 @@ module.exports = {
         value: "FUN", description: "Fun Commands!",
         replymsg: embed7, emoji: "887805689655853116" //optional
       }, {
+        value: "LEVELLING", description: "Levelling Commands!",
+        replymsg: embed10, emoji: "938072252778426409" //optional
+      }, {
         value: "SLASH COMMANDS", description: "Slash Commands!",
         replymsg: embed8, emoji: "908666657520619550" //optional
       }, 
@@ -133,7 +146,7 @@ module.exports = {
    // define the selection
     let Selection = new MessageMenu()
       .setID('MenuSelection')
-      .setMaxValues(1) //OPTIONAL, this is how many values you can have at each selection
+      .setMaxValues(3) //OPTIONAL, this is how many values you can have at each selection
       .setMinValues(1) //OPTIONAL , this is how many values you need to have at each selection
       .setPlaceholder('Click me to make a Selection!');  //message in the content placeholder
     menuoptions.forEach(option => {
@@ -152,7 +165,7 @@ module.exports = {
       .setDescription('** *HEAven Guarder*  is one of the only free all in one bots that has many features like tickets, reaction roles and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .setColor("#f4c2c2")
       .addField("📜 COMMAND CATEGORIES",
-        "**<:atlanta_moderation_category:789030389741781033>  ADMIN\n<:atlanta_general_category:789030444167200808>  GENERAL\n<a:Tada_Yellow:933244423234539560>  GIVEAWAY\n<a:Rainbow_heart:937584806923993128>  INFO\n<a:money:908685366184271923> ECONOMY\n<:atlanta_images_category:789030084861362257>  IMAGE\n<:atlanta_fun_category:789030226607996958>  FUN\n<a:pin:908666657520619550> Slash Commands**")
+        "**<:atlanta_moderation_category:789030389741781033>  ADMIN\n<:atlanta_general_category:789030444167200808>  GENERAL\n<a:Tada_Yellow:933244423234539560>  GIVEAWAY\n<a:Rainbow_heart:937584806923993128>  INFO\n<a:money:908685366184271923> ECONOMY\n<:atlanta_images_category:789030084861362257>  IMAGE\n<:atlanta_fun_category:789030226607996958>  FUN\n<a:level_up:938072252778426409> LEVELLING\n<a:pin:908666657520619550> SLASH COMMANDS**")
       
       .setFooter('HEAven Guarder | Prefix: +')
 
