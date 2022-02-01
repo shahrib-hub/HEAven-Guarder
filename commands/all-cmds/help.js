@@ -146,7 +146,7 @@ module.exports = {
    // define the selection
     let Selection = new MessageMenu()
       .setID('MenuSelection')
-      .setMaxValues(3) //OPTIONAL, this is how many values you can have at each selection
+      .setMaxValues(1) //OPTIONAL, this is how many values you can have at each selection
       .setMinValues(1) //OPTIONAL , this is how many values you need to have at each selection
       .setPlaceholder('Click me to make a Selection!');  //message in the content placeholder
     menuoptions.forEach(option => {
