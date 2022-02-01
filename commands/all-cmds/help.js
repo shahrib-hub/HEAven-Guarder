@@ -83,8 +83,8 @@ const disbut = require("discord-buttons");
       .setDescription('** *HEAven Guarder*  is one of the only free all in one bots that has many features like tickets, reaction roles and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .setColor("#f4c2c2")
       .addField(
-        "<a:money:908685366184271923> ECONOMY",
-        "`gamble` `bal` `beg` `buy` `daily` `rob` `search` `gift` `shop` `give` `crime` `post-cat` `post-meme` `shop` `slots` `vote` `use` `roulette` `sell` `rich` `mine` `passive`  `fish` `hunt` `inventory` `deposit` `withdraw`  `profile` `blackjack`  `work`")
+        "<a:money:908685366184271923> ECONOMY [Prefix: !h]",
+        "`!h gamble` `!h bal` `!h beg` `!h buy` `!h daily` `!h rob` `!h search` `!h gift` `!h shop` `!h give` `!h crime` `!h post-cat` `!h post-meme` `!h slots` `!h vote` `!h use` `!h roulette` `!h sell` `!h rich` `!h mine` `!h passive`  `!h fish` `!h hunt` `!h inventory` `!h deposit` `!h withdraw`  `!h profile` `!h blackjack`  `!h work`")
             
       .setFooter('HEAven Guarder | Prefix: !h for economy')
 
