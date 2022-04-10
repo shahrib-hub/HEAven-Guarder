@@ -3,10 +3,11 @@ const disbutpages = require("discord-embeds-pages-buttons")
 const Discord = require("discord.js")
 const { button, MessageButton, MessageActionRow, MessageMenuOption, MessageMenu } = require('discord-buttons');
 const disbut = require("discord-buttons");
-      let days = Math.floor(client.uptime / 86400000);
-        let hours = Math.floor(client.uptime / 3600000) % 24;
-        let minutes = Math.floor(client.uptime / 60000) % 60;
-        let seconds = Math.floor(client.uptime / 1000) % 60;
+
+    let days = Math.floor(client.uptime / 86400000);
+    let hours = Math.floor(client.uptime / 3600000) % 24;
+    let minutes = Math.floor(client.uptime / 60000) % 60;
+    let seconds = Math.floor(client.uptime / 1000) % 60;
 
     let embed1 = new Discord.MessageEmbed()
       .setTitle('**<a:Rainbow_heart:937584806923993128> Help Panel <a:Rainbow_heart:937584806923993128>**')
