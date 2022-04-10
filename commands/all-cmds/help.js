@@ -11,7 +11,7 @@ const disbut = require("discord-buttons");
       .addField("<a:correct:937681819812392970> COMMAND CATEGORIES",
         "**<:atlanta_administration_category:789030159419310101>  ADMIN\n<:atlanta_general_category:789030444167200808>  GENERAL\n<a:Tada_Yellow:933244423234539560>  GIVEAWAY\n💙  INFO\n<a:money:908685366184271923> ECONOMY\n<:atlanta_images_category:789030084861362257>  IMAGE\n<:atlanta_fun_category:789030226607996958>  FUN\n<a:level_up:938072252778426409> LEVELLING\n<a:pin:908666657520619550> SLASH COMMANDS**")
   
-      .setFooter('HEAven Guarder | Prefix: +')
+      .setFooter('HEAven Guarder | Prefix: !h')
     let embed2 = new Discord.MessageEmbed()
       .setTitle('**<a:Rainbow_heart:937584806923993128> Help Panel <a:Rainbow_heart:937584806923993128>**')
       .setDescription('** *HEAven Guarder*  is one of the only free all in one bots that has many features like tickets, reaction roles and buttons while keeping the minimalistic feel and look that every bot user loves.**')
@@ -20,7 +20,7 @@ const disbut = require("discord-buttons");
         "<:atlanta_moderation_category:789030389741781033> MODERATION",
         "`ban` `unban` `kick` `avatar` `addemoji` `addrole` `removerole` `announce` `setnick` `resetnick` `purge-channel` `lockchannel` `/purge` `slowmode` `mute` `unmute` `greet-embed-toggle` `timedlockdown`")
   
-      .setFooter('HEAven Guarder | Prefix: +')
+      .setFooter('HEAven Guarder | Prefix: !h')
     let embed3 = new Discord.MessageEmbed()
       .setTitle('**<a:Rainbow_heart:937584806923993128> Help Panel <a:Rainbow_heart:937584806923993128>**')
       .setDescription('** *HEAven Guarder*  is one of the only free all in one bots that has many features like tickets, reaction roles and buttons while keeping the minimalistic feel and look that every bot user loves.**')
@@ -29,7 +29,7 @@ const disbut = require("discord-buttons");
         "<:atlanta_general_category:789030444167200808> GENERAL",
         "`servericon` `calculator` `invite` `membercount` `botinfo` `serverinfo` `leaderboard` `snipe` `embed`")
      
-      .setFooter('HEAven Guarder | Prefix: +')
+      .setFooter('HEAven Guarder | Prefix: !h')
     let embed4 = new Discord.MessageEmbed()
       .setTitle('**<a:Rainbow_heart:937584806923993128> Help Panel <a:Rainbow_heart:937584806923993128>**')
       .setDescription('** *HEAven Guarder*  is one of the only free all in one bots that has many features like tickets, reaction roles and buttons while keeping the minimalistic feel and look that every bot user loves.**')
@@ -38,7 +38,7 @@ const disbut = require("discord-buttons");
         "<a:prize:933244459171348510> GIVEAWAY",
         "`gstart` `ghelp` `gend` `greroll`")
       
-      .setFooter('Bot Made By SHAHRIb | Prefix: +')
+      .setFooter('Bot Made By SHAHRIb | Prefix: !h')
     let embed5 = new Discord.MessageEmbed()
       .setTitle('**<a:Rainbow_heart:937584806923993128> Help Panel <a:Rainbow_heart:937584806923993128>**')
       .setDescription('** *HEAven Guarder*  is one of the only free all in one bots that has many features like tickets, reaction roles and buttons while keeping the minimalistic feel and look that every bot user loves.**')
@@ -47,7 +47,7 @@ const disbut = require("discord-buttons");
         "<a:Rainbow_heart:937584806923993128> INFO",
         "`avatar` `bug-report` `feedback` `suggest` `developer` `help` `position` `urban` `vote` `weather` `status` `channelinfo` `rolememberinfo`")
       
-      .setFooter('HEAven Guarder | Prefix: +')
+      .setFooter('HEAven Guarder | Prefix: !h')
     let embed6 = new Discord.MessageEmbed()
       .setTitle('**<a:Rainbow_heart:937584806923993128> Help Panel <a:Rainbow_heart:937584806923993128>**')
       .setDescription('** *HEAven Guarder*  is one of the only free all in one bots that has many features like tickets, reaction roles and buttons while keeping the minimalistic feel and look that every bot user loves.**')
@@ -56,7 +56,7 @@ const disbut = require("discord-buttons");
         "<:atlanta_images_category:789030084861362257> Image",
         "`tweet` `fact` `deepfry` `eject` `meme` `kangaroo` `dog` `cat` `changemymind` `fire` `respect` `scary`")
       
-      .setFooter('HEAven Guarder | Prefix: +')
+      .setFooter('HEAven Guarder | Prefix: !h')
      let embed7 = new Discord
      .MessageEmbed()
        .setTitle('**<a:Rainbow_heart:937584806923993128> Help Panel <a:Rainbow_heart:937584806923993128>**')
@@ -66,7 +66,7 @@ const disbut = require("discord-buttons");
         "<:atlanta_fun_category:789030226607996958> FUN",
         "`fight` `rps` `coinflip` `meme` `reverse` `hangman` `trivia` `fact` `Shuffle-guess`")
 
-      .setFooter('HEAven Guarder | Prefix: +')   
+      .setFooter('HEAven Guarder | Prefix: !h')   
      let embed8 = new Discord
      .MessageEmbed()
        .setTitle('**<a:Rainbow_heart:937584806923993128> Help Panel <a:Rainbow_heart:937584806923993128>**')
@@ -76,17 +76,17 @@ const disbut = require("discord-buttons");
         "<a:pin:908666657520619550> SLASH COMMANDS",
         "`addemoji` `autoplay` `avatar` `ban` `botguild` `botinfo` `channel-info` `channels` `clear` `emojis` `filter` `invite` `join` `joke` `meme` `jump` `mute` `nowplay` `pause` `ping` `play` `resume` `purge` `clear` `queue` `role-info` `roll` `seek` `server` `shorturl` `shuffle` `skip` `stop` `support` `unban` `unmute` `volume`")
             
-      .setFooter('HEAven Guarder | Prefix: +')
+      .setFooter('HEAven Guarder | Prefix: !h')
      let embed9 = new Discord
      .MessageEmbed()
        .setTitle('**<a:Rainbow_heart:937584806923993128> Help Panel <a:Rainbow_heart:937584806923993128>**')
       .setDescription('** *HEAven Guarder*  is one of the only free all in one bots that has many features like tickets, reaction roles and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .setColor("#f4c2c2")
       .addField(
-        "<a:money:908685366184271923> ECONOMY [Prefix: !h]",
+        "<a:money:908685366184271923> ECONOMY",
         "`gamble` `bal` `beg` `buy` `daily` `rob` `search` `gift` `shop` `give` `crime` `post-cat` `post-meme` `slots` `vote` `use` `roulette` `sell` `rich` `mine` `passive`  `fish` `hunt` `inventory` `deposit` `withdraw`  `profile` `blackjack`  `work`")
             
-      .setFooter('HEAven Guarder | Prefix: !h for economy')
+      .setFooter('HEAven Guarder | Prefix: !h')
      let embed10 = new Discord
      .MessageEmbed()
        .setTitle('**<a:Rainbow_heart:937584806923993128> Help Panel <a:Rainbow_heart:937584806923993128>**')
@@ -96,7 +96,7 @@ const disbut = require("discord-buttons");
         "<a:level_up:938072252778426409> LEVELLING",
         "`rank-help` `blacklist` `add-level` `setchannel` `rank-leaderboard` `rank` `levelupmessage` `remove-level` `role-level` `set-level` `xpsettings`")
 
-      .setFooter('HEAven Guarder | Prefix: +') 
+      .setFooter('HEAven Guarder | Prefix: !h') 
 
 
     
@@ -104,7 +104,7 @@ const disbut = require("discord-buttons");
 module.exports = {
   name: "help",
   aliases: ["h"],
-  usage: "+help",
+  usage: "!h help",
   description: "Shows the bot help menu",
 
 
@@ -167,7 +167,7 @@ module.exports = {
       .addField("📜 COMMAND CATEGORIES",
         "**<:atlanta_moderation_category:789030389741781033>  ADMIN\n<:atlanta_general_category:789030444167200808>  GENERAL\n<a:Tada_Yellow:933244423234539560>  GIVEAWAY\n<a:Rainbow_heart:937584806923993128>  INFO\n<a:money:908685366184271923> ECONOMY\n<:atlanta_images_category:789030084861362257>  IMAGE\n<:atlanta_fun_category:789030226607996958>  FUN\n<a:level_up:938072252778426409> LEVELLING\n<a:pin:908666657520619550> SLASH COMMANDS**")
       
-      .setFooter('HEAven Guarder | Prefix: +')
+      .setFooter('HEAven Guarder | Prefix: !h')
 
 
     
