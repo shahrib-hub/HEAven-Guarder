@@ -14,7 +14,7 @@ const disbut = require("discord-buttons");
       .setColor("#f4c2c2")
       .addField("<a:correct:937681819812392970> COMMAND CATEGORIES",
         "**<:atlanta_administration_category:789030159419310101>  ADMIN\n<:atlanta_general_category:789030444167200808>  GENERAL\n<a:Tada_Yellow:933244423234539560>  GIVEAWAY\n💙  INFO\n<a:money:908685366184271923> ECONOMY\n<:atlanta_images_category:789030084861362257>  IMAGE\n<:atlanta_fun_category:789030226607996958>  FUN\n<a:level_up:938072252778426409> LEVELLING\n<a:pin:908666657520619550> SLASH COMMANDS**")
-      .addField("Uptime","${days}days ${minutes}min ${seconds}sec
+      .addField("Uptime","${days}days ${hours}hours ${minutes}minutes ${seconds}seconds
   
       .setFooter('HEAven Guarder | Prefix: !h')
     let embed2 = new Discord.MessageEmbed()
