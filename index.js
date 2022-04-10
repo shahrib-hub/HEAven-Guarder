@@ -16,7 +16,7 @@ const button = require('discord-buttons');
 const disbut = require("discord-buttons")
 const { hangman } = require('reconlx')
 
-const prefix = "+";
+const prefix = "!h ";
 const Nuggies = require('nuggies');
 Nuggies.connect(process.env.MONGO_URI);
 const client = new Client({
@@ -61,7 +61,7 @@ client.giveawaysManager = new GiveawaysManager(client, {
 setInterval(async () => {
   UrlsConfig.countDocuments({}, (err, total) => {
 client.projectsSize = total;
-    client.user.setActivity(`+help | HEAven Guarder`, {
+    client.user.setActivity(`!h help | HEAven Guarder`, {
       
       type: "ONLINE",
     });
@@ -89,10 +89,10 @@ client.on('guildCreate', guild => {
  .setColor('BLACK')
  .setTitle('Connected To New Server')
  .setURL('https://i8.ae/uOYiy')
- .setDescription('<:yes:929246071006314496> Thank You For Inviting Me. My prefix is `+`. Run +help for more info about me!')
+ .setDescription('<:yes:929246071006314496> Thank You For Inviting Me. My prefix is `!h `. Run !h help for more info about me!')
  .setThumbnail('https://cdn.discordapp.com/avatars/932136827605905489/f311c2058aba6e41e1214ab662cb84a8.webp')
  .addFields(
- { name: 'Creator', value: 'SHAHRIb#9961' }
+ { name: 'Prefix', value: '**!h **' }
  )
 
  .setTimestamp()
