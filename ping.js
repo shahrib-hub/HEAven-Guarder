@@ -8,7 +8,7 @@ module.exports = {
 		client.api.interactions(interaction.id, interaction.token).callback.post({data: {
 			type: 4,
 			data: {
-					content: `:ping_pong: Pong: ${client.ws.ping}ms!`
+					content: `<a:network:977123820970311691> Pong: ${client.ws.ping}ms!`
 				}
 			}
 		})
