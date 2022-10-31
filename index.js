@@ -16,7 +16,7 @@ const button = require('discord-buttons');
 const disbut = require("discord-buttons")
 const { hangman } = require('reconlx')
 
-const prefix = "!h ";
+const prefix = "-";
 const Nuggies = require('nuggies');
 Nuggies.connect(process.env.MONGO_URI);
 const client = new Client({
@@ -63,7 +63,7 @@ setInterval(async () => {
 client.projectsSize = total;
     client.user.setActivity(`!h help | HEAven Guarder`, {
       
-      type: "ONLINE",
+      type: "DND",
     });
   });
 
@@ -88,15 +88,15 @@ client.on('guildCreate', guild => {
  let embed = new MessageEmbed()
  .setColor('BLACK')
  .setTitle('Connected To New Server')
- .setURL('https://i8.ae/uOYiy')
- .setDescription('<:yes:929246071006314496> Thank You For Inviting Me. My prefix is `!h `. Run !h help for more info about me!')
+ .setURL('https://dsc.gg/shahribdev')
+ .setDescription('<:yes:929246071006314496> Thank You For Inviting Me. My prefix is `-`. Run -help for more info about me!')
  .setThumbnail('https://cdn.discordapp.com/avatars/932136827605905489/f311c2058aba6e41e1214ab662cb84a8.webp')
  .addFields(
- { name: 'Prefix', value: '**!h **' }
+ { name: 'Prefix', value: '**-**' }
  )
 
  .setTimestamp()
- .setFooter('HEAven Guarder', 'https://i8.ae/uOYiy');
+ .setFooter('Nektar', 'https://dsc.gg/shahribdev');
 channel.send(embed);
 }) 
 
