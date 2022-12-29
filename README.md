@@ -4,3 +4,4 @@ Op Bot!
 
 Commands | Infomation
 -----|------------
+30+ Commands | COMMANDS!!!
